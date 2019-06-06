@@ -4,5 +4,5 @@
     "description": "A theme for the Eclipse Origins forums.",
     "url": "",
     "screenshot": "",
-    "baseTheme": "nodebb-theme-vanilla"
+    "baseTheme": "nodebb-theme-slick"
 }
