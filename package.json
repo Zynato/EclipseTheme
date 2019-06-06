@@ -1,0 +1,24 @@
+{
+  "name": "nodebb-theme-eclipse-origins",
+  "version": "5.0.4",
+  "description": "Eclipse Origins Theme for NodeBB",
+  "main": "theme.less",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zynato/EclipseTheme"
+  },
+  "keywords": [
+    "nodebb",
+    "lavender",
+    "theme",
+    "themes"
+  ],
+  "author": {
+    "name": "EclipseOrigins",
+    "email": "z@mail.eclipseorigins.com"
+  },
+  "license": "BSD-2-Clause",
+  "nbbpm": {
+    "compatibility": "^1.4.4"
+  }
+}

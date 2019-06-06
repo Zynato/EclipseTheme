@@ -1,0 +1,14 @@
+{
+    "id": "nodebb-theme-eclipse-origins",
+    "hooks": [
+        { "hook": "filter:widgets.getAreas", "method": "defineWidgetAreas" }
+    ],
+    "library": "./lib/theme.js",
+    "staticDirs": {
+		"vendor": "static/vendor"
+    },
+    "scripts": [
+        "static/lib/eclipse-origins.js",
+		    "static/vendor/jquery.matchHeight.js"
+    ]
+}

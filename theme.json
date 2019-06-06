@@ -1,0 +1,8 @@
+{
+    "id": "nodebb-theme-eclipse-origins",
+    "name": "EclipseOrigins",
+    "description": "A theme for the Eclipse Origins forums.",
+    "url": "",
+    "screenshot": "",
+    "baseTheme": "nodebb-theme-vanilla"
+}
