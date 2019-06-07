@@ -1,6 +1,6 @@
 
 <div class="categories row" itemscope itemtype="http://www.schema.org/ItemList">
-    <div class="<!-- IF widgets.sidebar.length -->col-lg-10 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
+    <div class="<!-- IF widgets.sidebar.length -->col-md-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
         <div class="row">
             <div class="col-md-12">
                 <div class="motd">
@@ -13,11 +13,6 @@
             </div>
         </div>
 
-        <div class="row categories-header hidden-xs hidden-sm">
-            <div class="col-md-8 col-xs-12"><div class="header-title"></div></div>
-            <div class="col-md-1"><div class="header-title"></div></div>
-            <div class="col-md-3"><div class="header-title"></div></div>
-        </div>
         <!-- BEGIN categories -->
         <!-- IF categories.isSection -->
         <div component="categories/category" data-cid="{categories.cid}">
@@ -107,7 +102,7 @@
         <!-- ENDIF categories.isSection -->
         <!-- END categories -->
     </div> 
-    <div widget-area="sidebar" class="col-lg-2 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
+    <div widget-area="sidebar" class="col-md-3 col-sm-12 <!-- IF !widgets.sidebar.length -->hidden<!-- ENDIF !widgets.sidebar.length -->">
 		<!-- BEGIN widgets.sidebar -->
 		{{widgets.sidebar.html}}
 		<!-- END widgets.sidebar -->
